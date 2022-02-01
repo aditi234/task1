@@ -1,0 +1,30 @@
+#container {
+  position: relative;
+  text-align: center;
+  color: black;
+}
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 450px;
+  font-size: 50px;
+  color: black;
+  -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 450px;
+  font-size: 50px;
+  color: black;
+  -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
+
+.container img {
+  height: 450px;
+  width: 650px;
+}
