@@ -49,3 +49,25 @@
   float: right;
   width: 25%;
 }
+
+input {
+  color: white;
+  padding: 10px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  border-radius: 50px;
+  border-style: solid;
+  border-color: rgb(29, 21, 11);
+  background-color: rgb(26, 24, 24);
+}
+
+button {
+  height: 50px;
+  width: 100px;
+  border: none;
+  border-radius: 25px;
+  color: white;
+  background-color: black;
+  margin-left: 10px;
+  font-size: 2ch;
+}
